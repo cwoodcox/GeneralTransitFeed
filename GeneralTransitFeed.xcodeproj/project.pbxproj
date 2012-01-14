@@ -16,6 +16,10 @@
 		F088909F14C1184B00BFA52F /* GeneralTransitFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F088908314C1184B00BFA52F /* GeneralTransitFeed.framework */; };
 		F08890A514C1184B00BFA52F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F08890A314C1184B00BFA52F /* InfoPlist.strings */; };
 		F08890A814C1184B00BFA52F /* GeneralTransitFeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F08890A714C1184B00BFA52F /* GeneralTransitFeedTests.m */; };
+		F08890B614C118C700BFA52F /* GTFObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F08890B414C118C700BFA52F /* GTFObject.h */; };
+		F08890B714C118C700BFA52F /* GTFObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F08890B514C118C700BFA52F /* GTFObject.m */; };
+		F08890BD14C11ADA00BFA52F /* GTFStop.h in Headers */ = {isa = PBXBuildFile; fileRef = F08890BB14C11ADA00BFA52F /* GTFStop.h */; };
+		F08890BE14C11ADA00BFA52F /* GTFStop.m in Sources */ = {isa = PBXBuildFile; fileRef = F08890BC14C11ADA00BFA52F /* GTFStop.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,16 +42,20 @@
 /* Begin PBXFileReference section */
 		F088908314C1184B00BFA52F /* GeneralTransitFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = GeneralTransitFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F088908614C1184B00BFA52F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F088908A14C1184B00BFA52F /* GeneralTransitFeed-Info.plist */ = {isa = PBXFileReference; path = "GeneralTransitFeed-Info.plist"; sourceTree = "<group>"; };
+		F088908A14C1184B00BFA52F /* GeneralTransitFeed-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeneralTransitFeed-Info.plist"; sourceTree = "<group>"; };
 		F088908C14C1184B00BFA52F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F088908E14C1184B00BFA52F /* GeneralTransitFeed-Prefix.pch */ = {isa = PBXFileReference; path = "GeneralTransitFeed-Prefix.pch"; sourceTree = "<group>"; };
+		F088908E14C1184B00BFA52F /* GeneralTransitFeed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeneralTransitFeed-Prefix.pch"; sourceTree = "<group>"; };
 		F088909414C1184B00BFA52F /* GeneralTransitFeedTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeneralTransitFeedTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F088909514C1184B00BFA52F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		F088909714C1184B00BFA52F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		F08890A214C1184B00BFA52F /* GeneralTransitFeedTests-Info.plist */ = {isa = PBXFileReference; path = "GeneralTransitFeedTests-Info.plist"; sourceTree = "<group>"; };
+		F08890A214C1184B00BFA52F /* GeneralTransitFeedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeneralTransitFeedTests-Info.plist"; sourceTree = "<group>"; };
 		F08890A414C1184B00BFA52F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F08890A614C1184B00BFA52F /* GeneralTransitFeedTests.h */ = {isa = PBXFileReference; path = GeneralTransitFeedTests.h; sourceTree = "<group>"; };
+		F08890A614C1184B00BFA52F /* GeneralTransitFeedTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneralTransitFeedTests.h; sourceTree = "<group>"; };
 		F08890A714C1184B00BFA52F /* GeneralTransitFeedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneralTransitFeedTests.m; sourceTree = "<group>"; };
+		F08890B414C118C700BFA52F /* GTFObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTFObject.h; sourceTree = "<group>"; };
+		F08890B514C118C700BFA52F /* GTFObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTFObject.m; sourceTree = "<group>"; };
+		F08890BB14C11ADA00BFA52F /* GTFStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTFStop.h; sourceTree = "<group>"; };
+		F08890BC14C11ADA00BFA52F /* GTFStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTFStop.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,10 @@
 		F088907514C1184B00BFA52F = {
 			isa = PBXGroup;
 			children = (
+				F08890BB14C11ADA00BFA52F /* GTFStop.h */,
+				F08890BC14C11ADA00BFA52F /* GTFStop.m */,
+				F08890B414C118C700BFA52F /* GTFObject.h */,
+				F08890B514C118C700BFA52F /* GTFObject.m */,
 				F088908814C1184B00BFA52F /* GeneralTransitFeed */,
 				F08890A014C1184B00BFA52F /* GeneralTransitFeedTests */,
 				F088908514C1184B00BFA52F /* Frameworks */,
@@ -147,6 +159,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F08890B614C118C700BFA52F /* GTFObject.h in Headers */,
+				F08890BD14C11ADA00BFA52F /* GTFStop.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +300,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F08890B714C118C700BFA52F /* GTFObject.m in Sources */,
+				F08890BE14C11ADA00BFA52F /* GTFStop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
